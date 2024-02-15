@@ -1,0 +1,72 @@
+Malachi Eberly
+Project 1 - Output
+
+Part 1: Tutorial
+++++++++++++++++++++++++++++++++++++++++++
+
+Downloading https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz to ./data\cifar-10-python.tar.gz
+100%|█████████████████████████████████████████████████████████████████████████████████████| 170498071/170498071 [00:21<00:00, 8115428.77it/s]
+Extracting ./data\cifar-10-python.tar.gz to ./data
+Files already downloaded and verified
+cat   horse bird  dog  
+[1,  2000] loss: 2.176
+[1,  4000] loss: 1.845
+[1,  6000] loss: 1.655
+[1,  8000] loss: 1.577
+[1, 10000] loss: 1.503
+[1, 12000] loss: 1.454
+[2,  2000] loss: 1.387
+[2,  4000] loss: 1.352
+[2,  6000] loss: 1.314
+[2,  8000] loss: 1.327
+[2, 10000] loss: 1.315
+[2, 12000] loss: 1.269
+Finished Training
+GroundTruth:  cat   ship  ship  plane
+Predicted:  cat   car   car   plane
+Accuracy of the network on the 10000 test images: 54 %
+Accuracy for class: plane is 55.2 %
+Accuracy for class: car   is 57.8 %
+Accuracy for class: bird  is 25.9 %
+Accuracy for class: cat   is 37.7 %
+Accuracy for class: deer  is 50.0 %
+Accuracy for class: dog   is 52.4 %
+Accuracy for class: frog  is 60.8 %
+Accuracy for class: horse is 75.3 %
+Accuracy for class: ship  is 62.6 %
+Accuracy for class: truck is 70.5 %
+cpu
+
+Part 2: Apple Quality
+++++++++++++++++++++++++++++++++++++++++++
+
+              Size       Weight    Sweetness  Crunchiness    Juiciness     Ripeness      Acidity      Quality
+count  3999.000000  3999.000000  3999.000000  3999.000000  3999.000000  3999.000000  3999.000000  3999.000000
+mean     -0.503210    -0.989365    -0.470626     0.986013     0.511929     0.498596     0.076496     0.500875
+std       1.928260     1.602666     1.943661     1.402524     1.930490     1.874553     2.110396     0.500062
+min      -7.151703    -7.149848    -6.894485    -6.055058    -5.961897    -5.864599    -7.010538     0.000000
+25%      -1.817327    -2.011774    -1.738426     0.063858    -0.801333    -0.769899    -1.377510     0.000000
+50%      -0.513836    -0.984489    -0.505210     0.998566     0.533504     0.504153     0.022421     1.000000
+75%       0.805724     0.032180     0.802034     1.894882     1.836050     1.767142     1.509737     1.000000
+max       6.406367     5.790714     6.374916     7.619852     7.364403     7.237837     7.404736     1.000000
+Epoch 10/200 - Loss: 0.3173
+Epoch 20/200 - Loss: 0.2565
+Epoch 30/200 - Loss: 0.2221
+Epoch 40/200 - Loss: 0.1901
+Epoch 50/200 - Loss: 0.1626
+Epoch 60/200 - Loss: 0.1411
+Epoch 70/200 - Loss: 0.1166
+Epoch 80/200 - Loss: 0.1044
+Epoch 90/200 - Loss: 0.0874
+Epoch 100/200 - Loss: 0.0769
+Epoch 110/200 - Loss: 0.0660
+Epoch 120/200 - Loss: 0.0572
+Epoch 130/200 - Loss: 0.0556
+Epoch 140/200 - Loss: 0.0494
+Epoch 150/200 - Loss: 0.0415
+Epoch 160/200 - Loss: 0.0355
+Epoch 170/200 - Loss: 0.0313
+Epoch 180/200 - Loss: 0.0275
+Epoch 190/200 - Loss: 0.0243
+Epoch 200/200 - Loss: 0.0214
+Test Accuracy: 94.75%
